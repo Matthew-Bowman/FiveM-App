@@ -14,5 +14,3 @@ A generic FiveM resource consisting of a range of functionality.
 ## Current Design
 
 ### Event Manager
-
-<img src="[image-source-url-location.com](https://imgur.com/a/vTEavdb.jpg)" />
