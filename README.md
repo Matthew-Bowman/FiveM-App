@@ -13,4 +13,6 @@ A generic FiveM resource consisting of a range of functionality.
 
 ## Current Design
 
-- W.I.P.
+### Event Manager
+
+![Imgur Link](https://imgur.com/a/vTEavdb)
