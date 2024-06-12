@@ -14,3 +14,5 @@ A generic FiveM resource consisting of a range of functionality.
 ## Current Design
 
 ### Event Manager
+
+![Event Manager UML Design](https://raw.githubusercontent.com/Matthew-Bowman/FiveM-App/master/Designs/Event%20Manager%20Design.png)
