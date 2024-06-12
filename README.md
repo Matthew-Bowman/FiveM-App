@@ -15,4 +15,4 @@ A generic FiveM resource consisting of a range of functionality.
 
 ### Event Manager
 
-![Imgur Link](https://imgur.com/a/vTEavdb.png)
+![Imgur Link](https://imgur.com/a/vTEavdb.jpg)
