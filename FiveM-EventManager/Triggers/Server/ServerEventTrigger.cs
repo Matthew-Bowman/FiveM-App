@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace FiveM_EventManager.Triggers.Server
 {
-    internal class ServerEventTrigger
+    internal class ServerEventTrigger : ITriggerServerEvents
     {
+        public void TriggerEvent(ServerEvent pEventName, string pData)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

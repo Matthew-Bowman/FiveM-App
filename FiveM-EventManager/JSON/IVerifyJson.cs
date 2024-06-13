@@ -8,5 +8,6 @@ namespace FiveM_EventManager
 {
     internal interface IVerifyJson
     {
+        bool VerifyJSON(string pData);
     }
 }

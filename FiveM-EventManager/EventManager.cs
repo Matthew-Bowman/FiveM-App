@@ -6,7 +6,36 @@ using System.Threading.Tasks;
 
 namespace FiveM_EventManager
 {
-    internal class EventManager
+    internal class EventManager : IManageEvents
     {
+        public void AddPseudoHandler(ServerEvent pEventName, Action<string> pAction)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void AddPseudoHandler(ClientEvent pEventName, Action<string> pAction)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void CompileEvents()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TriggerEvent(ServerEvent pEventName, string pData)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TriggerEvent(ClientEvent pEventName, string pData)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TriggerEvent(ClientEvent pEventName, int pDestination)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

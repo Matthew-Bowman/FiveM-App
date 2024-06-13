@@ -8,5 +8,6 @@ namespace FiveM_EventManager
 {
     internal interface ITriggerClientEvents
     {
+        void TriggerEvent(ServerEvent pEventName, string pData, int pDestination = -1);
     }
 }

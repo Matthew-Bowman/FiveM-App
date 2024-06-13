@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FiveM_EventManager
 {
-    internal class ServerEvent
+    public enum ServerEvent
     {
+
     }
 }
