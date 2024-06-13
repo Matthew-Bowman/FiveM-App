@@ -15,4 +15,4 @@ A generic FiveM resource consisting of a range of functionality.
 
 ### Event Manager - Click To Enlarge
 
-![Event Manager UML Design](https://raw.githubusercontent.com/Matthew-Bowman/FiveM-App/master/Designs/Event%20Manager%20Design.png)
+![Event Manager UML Design](https://raw.githubusercontent.com/Matthew-Bowman/FiveM-App/master/Designs/Event%20Manager%20Design%20v3.png)
