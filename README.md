@@ -6,6 +6,12 @@ A generic FiveM resource consisting of a range of functionality.
 
 - Core Design
 
+## Next Steps
+
+- Build Event Manager
+  - Comment Component Files
+  - Develop Logic
+
 ## Intents
 
 - Event data transfer via dynamic JSON objects
