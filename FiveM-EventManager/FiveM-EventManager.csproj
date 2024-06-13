@@ -44,7 +44,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enumerations\ClientEvent.cs" />
+    <Compile Include="EventManager.cs" />
+    <Compile Include="IManageEvents.cs" />
+    <Compile Include="Triggers\Client\ClientEventTrigger.cs" />
+    <Compile Include="Triggers\Client\ITriggerClientEvents.cs" />
+    <Compile Include="Triggers\Server\ITriggerServerEvents.cs" />
+    <Compile Include="JSON\IVerifyJson.cs" />
+    <Compile Include="JSON\JSONVerifier.cs" />
+    <Compile Include="Enumerations\NetworkNode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Enumerations\ServerEvent.cs" />
+    <Compile Include="Triggers\Server\ServerEventTrigger.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
