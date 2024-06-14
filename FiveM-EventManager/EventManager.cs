@@ -8,6 +8,19 @@ namespace FiveM_EventManager
 {
     internal class EventManager : IHandleEvents, ITriggerEvents
     {
+        /*************** FIELDS ***************/
+
+
+
+
+
+        /*************** CONSTRUCTORS ***************/
+
+
+
+
+
+        /*************** PUBLIC METHODS ***************/
         public void AddPseudoHandler(ServerEvent pEventName, Action<string> pAction)
         {
             throw new NotImplementedException();
@@ -32,5 +45,11 @@ namespace FiveM_EventManager
         {
             throw new NotImplementedException();
         }
+
+
+
+
+
+        /*************** PRIVATE METHODS ***************/
     }
 }

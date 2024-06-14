@@ -1,9 +1,26 @@
 ﻿using System;
+using CitizenFX.Core;
 
 namespace FiveM_EventManager.CFXEventsInterface
 {
-    internal class CFXEventInterface : IInterfaceCFXEvents
+    /// <summary>
+    /// Class <c>CFXEventInterface</c>
+    /// </summary>
+    internal class CFXEventInterface : BaseScript, IInterfaceCFXEvents
     {
+        /*************** FIELDS ***************/
+
+
+
+
+
+        /*************** CONSTRUCTORS ***************/
+
+
+
+
+
+        /*************** PUBLIC METHODS ***************/
         public void AddEventHandler(ServerEvent pEventName, Action<string> pAction)
         {
             throw new NotImplementedException();
@@ -23,5 +40,11 @@ namespace FiveM_EventManager.CFXEventsInterface
         {
             throw new NotImplementedException();
         }
+
+
+
+
+
+        /*************** PRIVATE METHODS ***************/
     }
 }
