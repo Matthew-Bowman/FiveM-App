@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FiveM_EventManager
 {
-    internal class JSONVerifier : IVerifyJson
+    internal class JSONVerifier : IVerifyJSON
     {
         public JSONVerifier() { }
         public bool VerifyJSON(string pData) { throw new NotImplementedException(); }

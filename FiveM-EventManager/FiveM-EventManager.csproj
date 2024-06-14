@@ -57,7 +57,7 @@
     <Compile Include="Triggers\Client\ClientEventTrigger.cs" />
     <Compile Include="Triggers\Client\ITriggerClientEvents.cs" />
     <Compile Include="Triggers\Server\ITriggerServerEvents.cs" />
-    <Compile Include="JSON\IVerifyJson.cs" />
+    <Compile Include="JSON\IVerifyJSON.cs" />
     <Compile Include="JSON\JSONVerifier.cs" />
     <Compile Include="Enumerations\NetworkNode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
