@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FiveM_EventManager
 {
-    internal class EventManager : IManageEvents
+    internal class EventManager : IHandleEvents, ITriggerEvents
     {
         public void AddPseudoHandler(ServerEvent pEventName, Action<string> pAction)
         {

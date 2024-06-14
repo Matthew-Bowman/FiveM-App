@@ -44,9 +44,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CFXEventsInterface\CFXEventInterface.cs" />
+    <Compile Include="CFXEventsInterface\Handlers\IHandleCFXClientEvents.cs" />
+    <Compile Include="CFXEventsInterface\Handlers\IHandleCFXServerEvents.cs" />
+    <Compile Include="CFXEventsInterface\IInterfaceCFXEvents.cs" />
+    <Compile Include="CFXEventsInterface\Triggers\ITriggerCFXClientEvents.cs" />
+    <Compile Include="CFXEventsInterface\Triggers\ITriggerCFXServerEvents.cs" />
     <Compile Include="Enumerations\ClientEvent.cs" />
     <Compile Include="EventManager.cs" />
-    <Compile Include="IManageEvents.cs" />
+    <Compile Include="ITriggerEvents.cs" />
+    <Compile Include="IHandleEvents.cs" />
     <Compile Include="Triggers\Client\ClientEventTrigger.cs" />
     <Compile Include="Triggers\Client\ITriggerClientEvents.cs" />
     <Compile Include="Triggers\Server\ITriggerServerEvents.cs" />
