@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace FiveM_EventManager
 {
+    /// <summary>
+    /// Enum <c>NetworkNode</c> where the Class Library exists
+    /// </summary>
     internal enum NetworkNode
     {
         Server,
