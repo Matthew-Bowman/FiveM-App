@@ -28,12 +28,7 @@ namespace FiveM_EventManager
             throw new NotImplementedException();
         }
 
-        public void TriggerEvent(ClientEvent pEventName, string pData)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void TriggerEvent(ClientEvent pEventName, int pDestination)
+        public void TriggerEvent(ClientEvent pEventName, string pData, int pDestination = -1)
         {
             throw new NotImplementedException();
         }

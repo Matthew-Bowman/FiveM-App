@@ -9,7 +9,6 @@ namespace FiveM_EventManager
     internal interface ITriggerEvents
     {
         void TriggerEvent(ServerEvent pEventName, string pData);
-        void TriggerEvent(ClientEvent pEventName, string pData);
-        void TriggerEvent(ClientEvent pEventName, int pDestination);
+        void TriggerEvent(ClientEvent pEventName, string pData, int pDestination = -1);
     }
 }
