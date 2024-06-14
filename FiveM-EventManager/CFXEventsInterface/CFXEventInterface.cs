@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FiveM_EventManager.CFXEventsInterface
 {
@@ -13,7 +9,7 @@ namespace FiveM_EventManager.CFXEventsInterface
             throw new NotImplementedException();
         }
 
-        public void AddingNewEventHandler(ClientEvent pEventName, Action<string> pAction)
+        public void AddEventHandler(ClientEvent pEventName, Action<string> pAction)
         {
             throw new NotImplementedException();
         }
