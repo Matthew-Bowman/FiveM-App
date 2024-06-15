@@ -14,11 +14,28 @@ namespace FiveM_App_EventManager_Tests
         /*************** TESTS ***************/
 
         [Fact]
+        public void CompileHandlersTest()
+        {
+            // Arrange
+            IHandleEvents eventHandler = new EventManager(NetworkNode.Server);
+
+            ServerEvent serverEvent = ServerEvent.XUnitTestEvent;
+            Action<string> eventAction = new Action<string>(OnTestEvent);
+
+            eventHandler.AddPseudoHandler(serverEvent, eventAction);
+
+            // Act
+            Exception exception = Record.Exception(() => eventHandler.CompileEvents());
+
+            // Assert
+            Assert.Null(exception);
+        }
 
 
 
 
 
         /*************** HELPER FUNCTIONS ***************/
+        private void OnTestEvent(string pData) { }
     }
 }
