@@ -29,7 +29,7 @@ namespace FiveM_App_EventManager_Tests
         }
 
         [Fact]
-        public void AddClientEvent()
+        public void AddClientEventTest()
         {
             // Arrange
             IHandleEvents eventHandler = new EventManager(NetworkNode.Client);
