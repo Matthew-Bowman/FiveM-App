@@ -12,5 +12,6 @@ namespace FiveM_EventManager
     public enum ServerEvent
     {
         /*************** CUSTOM SERVER EVENTS ***************/
+        XUnitTestEvent
     }
 }

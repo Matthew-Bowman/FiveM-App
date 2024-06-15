@@ -12,5 +12,6 @@ namespace FiveM_EventManager
     public enum ClientEvent
     {
         /*************** CUSTOM CLIENT EVENTS ***************/
+        XUnitTestEvent
     }
 }
