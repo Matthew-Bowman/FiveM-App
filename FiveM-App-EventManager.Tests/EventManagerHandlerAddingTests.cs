@@ -39,6 +39,9 @@ namespace FiveM_App_EventManager_Tests
 
             // Act
             Exception exception = Record.Exception(() => eventHandler.AddPseudoHandler(clientEvent, eventAction));
+
+            // Assert
+            Assert.Null(exception);
         }
 
 
