@@ -6,7 +6,7 @@ namespace FiveM_EventManager
     /// <summary>
     /// Interface <c>IHandleEvents</c> combines events and their corrosponding handlers
     /// </summary>
-    internal interface IHandleEvents
+    public interface IHandleEvents
     {
         /// <summary>
         /// Method <c>AddPseudoHandler</c> combines an event with an action

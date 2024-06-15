@@ -5,7 +5,7 @@ namespace FiveM_EventManager
     /// <summary>
     /// Interface <c>ITriggerEvents</c> triggers an event with supplied data
     /// </summary>
-    internal interface ITriggerEvents
+    public interface ITriggerEvents
     {
         /// <summary>
         /// Method <c>TriggerEvent</c> triggers a server event and sends data
