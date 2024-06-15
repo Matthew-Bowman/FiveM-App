@@ -9,7 +9,7 @@ using FiveM_EventManager;
 
 namespace FiveM_App_EventManager_Tests
 {
-    public class EventManagerHandlerAddingTests
+    public class EventManagerServerHandlerAddingTests
     {
         /*************** TESTS ***************/
         [Fact]
