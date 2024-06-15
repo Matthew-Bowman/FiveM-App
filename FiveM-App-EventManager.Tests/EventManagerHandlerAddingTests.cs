@@ -28,6 +28,19 @@ namespace FiveM_App_EventManager_Tests
             Assert.Null(exception);
         }
 
+        [Fact]
+        public void AddClientEvent()
+        {
+            // Arrange
+            IHandleEvents eventHandler = new EventManager(NetworkNode.Client);
+
+            ClientEvent clientEvent = ClientEvent.XUnitTestEvent;
+            Action<string> eventAction = new Action<string>(OnTestEvent);
+
+            // Act
+            Exception exception = Record.Exception(() => eventHandler.AddPseudoHandler(clientEvent, eventAction));
+        }
+
 
 
 
