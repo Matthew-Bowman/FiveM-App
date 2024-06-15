@@ -9,7 +9,16 @@ using Xunit;
 
 namespace FiveM_App_EventManager_Tests
 {
-    public class EventManagerHandlerCompilingTests
+    public class EventManagerServerHandlerCompilingTests
     {
+        /*************** TESTS ***************/
+
+        [Fact]
+
+
+
+
+
+        /*************** HELPER FUNCTIONS ***************/
     }
 }
