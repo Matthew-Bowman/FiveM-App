@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FiveM_EventManager.Exceptions
 {
-    internal class IncorrectNetworkNodeException : Exception
+    public class IncorrectNetworkNodeException : Exception
     {
     }
 }
