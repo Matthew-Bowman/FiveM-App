@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xunit;
 using FiveM_EventManager;
+using FiveM_EventManager.Exceptions;
 
 namespace FiveM_App_EventManager_Tests
 {
@@ -27,6 +28,19 @@ namespace FiveM_App_EventManager_Tests
 
             // Assert
             Assert.Null(exception);
+        }
+
+        [Fact]
+        public void AddServerEventTest()
+        {
+            // Arrange
+            IHandleEvents eventHandler = new EventManager(NetworkNode.Client);
+
+            ServerEvent serverEvent = ServerEvent.XUnitTestEvent;
+            Action<string> eventAction = new Action<string>(OnTestEvent);
+
+            // Act & Assert
+            Assert.Throws<IncorrectNetworkNodeException>(() => eventHandler.AddPseudoHandler(serverEvent, eventAction));
         }
 
 
