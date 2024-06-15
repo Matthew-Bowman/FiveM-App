@@ -52,6 +52,7 @@
     <Compile Include="CFXEventsInterface\Triggers\ITriggerCFXServerEvents.cs" />
     <Compile Include="Enumerations\ClientEvent.cs" />
     <Compile Include="EventManager.cs" />
+    <Compile Include="Exceptions\IncorrectNetworkNodeException.cs" />
     <Compile Include="ITriggerEvents.cs" />
     <Compile Include="IHandleEvents.cs" />
     <Compile Include="Triggers\Client\ClientEventTrigger.cs" />
