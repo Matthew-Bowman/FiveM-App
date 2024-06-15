@@ -4,12 +4,12 @@ A generic FiveM resource consisting of a range of functionality.
 
 ## Current Status
 
-- Core Design
+- Event Manager Unit Tests
+  - Currently Working On: EventManager.cs Tests
 
 ## Next Steps
 
 - Build Event Manager
-  - Comment Component Files
   - Develop Logic
 
 ## Intents
