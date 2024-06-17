@@ -50,7 +50,7 @@ namespace FiveM_App_EventManager_Tests
             string eventData = "{}";
 
             // Act & Assert
-            Assert.Throws<IncorrectNetworkNodeException>(() => eventManager.TriggerEvent(clientEvent, eventData, -5));
+            Assert.Throws<InvalidNetworkIDException>(() => eventManager.TriggerEvent(clientEvent, eventData, -5));
         }
 
         [Fact]
