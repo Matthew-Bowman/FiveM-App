@@ -54,6 +54,7 @@
     <Compile Include="EventManager.cs" />
     <Compile Include="Exceptions\HandlersAlreadyCompiledException.cs" />
     <Compile Include="Exceptions\IncorrectNetworkNodeException.cs" />
+    <Compile Include="Exceptions\InvalidNetworkIDException.cs" />
     <Compile Include="ITriggerEvents.cs" />
     <Compile Include="IHandleEvents.cs" />
     <Compile Include="Triggers\Client\ClientEventTrigger.cs" />
