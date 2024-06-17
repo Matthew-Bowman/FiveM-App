@@ -5,11 +5,12 @@ A generic FiveM resource consisting of a range of functionality.
 ## Current Status
 
 - Event Manager Unit Tests
-  - Currently Working On: EventManager.cs Tests
+  - Currently Working On: JSONVerifier.cs Tests
 
 ## Next Steps
 
 - Build Event Manager
+  - Write Test Cases & Exception Discovery
   - Develop Logic
 
 ## Intents
