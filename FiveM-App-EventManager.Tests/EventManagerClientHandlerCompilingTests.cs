@@ -34,7 +34,7 @@ namespace FiveM_App_EventManager_Tests
         public void AlreadyCompiledTest()
         {
             // Arrange
-            IHandleEvents eventHandler = new EventManager(NetworkNode.Server);
+            IHandleEvents eventHandler = new EventManager(NetworkNode.Client);
 
             ClientEvent clientEvent = ClientEvent.XUnitTestEvent;
             Action<string> eventAction = new Action<string>(OnTestEvent);
